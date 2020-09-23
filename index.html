@@ -1,0 +1,1188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Clone</title>
+
+    <link rel="stylesheet" href="./fancybox-2.1.7/source/jquery.fancybox.css" />
+    <!-- Fancy Box Helpers -->
+    <link
+      rel="stylesheet"
+      href="./fancybox-2.1.7/source/helpers/jquery.fancybox-buttons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./fancybox-2.1.7/source/helpers/jquery.fancybox-thumbs.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/7cb9dd92a1.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <!-- navbar starts here -->
+      <div class="nav-wrapper">
+        <!-- nav overlay starts-->
+        <div class="nav-drawer">
+          <div class="closebtn">
+            <span><i class="far fa-times-circle fa-3x text-white"></i></span>
+          </div>
+          <div class="nav-drawer-links">
+            <ul>
+              <li><a href="#">home</a></li>
+              <li><a href="#">menu</a></li>
+              <li><a href="#">events</a></li>
+              <li><a href="#">specials</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- nav overlay ends -->
+        <nav class="lounge-navbar">
+          <div class="navbar-normal">
+            <div class="navbar-normal-links">
+              <ul class="navlinks-left">
+                <li><a class="navlink" href="#">home</a></li>
+                <li><a class="navlink" href="#">menu</a></li>
+              </ul>
+              <ul class="navlinks-right">
+                <li><a class="navlink" href="#">events</a></li>
+                <li><a class="navlink" href="#">specials</a></li>
+              </ul>
+              <ul class="social-icons">
+                <li>
+                  <span><i class="fab fa-facebook fa-2x"></i></span>
+                </li>
+                <li>
+                  <span><i class="fab fa-instagram fa-2x"></i></span>
+                </li>
+              </ul>
+              <!-- for small screens nav styling -->
+              <div class="links-for-sm-box">
+                <div class="logo">
+                  <a href="#"
+                    ><img class="logo-img" src="./imgs/logo.png" alt=""
+                  /></a>
+                </div>
+                <ul class="links-for-sm mb-0">
+                  <li><a href="#">home</a></li>
+                  <li><a href="#">menu</a></li>
+                  <li><a href="#">events</a></li>
+                  <li><a href="#">specials</a></li>
+                  <li>
+                    <span><i class="fab fa-facebook fa-2x"></i></span>
+                  </li>
+                  <li>
+                    <span><i class="fab fa-instagram fa-2x"></i></span>
+                  </li>
+                  <div class="navbtn-box">
+                    <a class="toggle-menu" href="#"
+                      ><span><i class="fas fa-bars"></i></span
+                    ></a>
+                  </div>
+                </ul>
+              </div>
+
+              <!-- nav for mobile ends -->
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!-- navbar ends here -->
+    </header>
+    <!-- Section1 slider starts -->
+    <section class="slider">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="carousel-img-1"></div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="carousel-img-2"></div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-img-3"></div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-img-4"></div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-img-5"></div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+    <!-- Section1 slider ends -->
+
+    <!-- Section Banner starts -->
+    <section id="banner">
+      <div class="container">
+        <div class="banner">
+          <h1 class="banner-title text-center mb-0">
+            <span><i class="fa fa-map-marker"></i></span>
+            52 Garden Street, Passaic, NJ 07055
+          </h1>
+        </div>
+      </div>
+    </section>
+    <!-- Section banner ends -->
+    <!-- About Us Section starts -->
+    <section id="about-us">
+      <!-- !SVG down starts -->
+      <svg
+        version="1.1"
+        viewBox="0 0 1920 29.7"
+        x="0px"
+        xml:space="preserve"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        y="0px"
+        class="svg-down"
+      >
+        <g>
+          <polygon class="st0" points="729.5,28.2 753.1,8.2 706,8.2 	"></polygon>
+          <polygon
+            class="st0"
+            points="806.6,28.2 830.2,8.2 783.1,8.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="883.7,28.2 907.2,8.2 860.2,8.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="960.8,28.2 984.3,8.2 937.2,8.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1037.9,28.2 1061.4,8.2 1014.3,8.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1114.9,28.2 1138.5,8.2 1091.4,8.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1192,28.2 1215.5,8.2 1168.5,8.2 	"
+          ></polygon>
+          <polygon class="st0" points="189.5,28.2 213.1,8.2 166,8.2 	"></polygon>
+          <polygon
+            class="st0"
+            points="266.6,28.2 290.2,8.2 243.1,8.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="343.7,28.2 367.2,8.2 320.2,8.2 	"
+          ></polygon>
+          <polygon class="st0" points="35.6,28.2 59.2,8.2 12.1,8.2 	"></polygon>
+          <polygon
+            class="st0"
+            points="112.7,28.2 136.2,8.2 89.2,8.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="420.8,28.2 444.3,8.2 397.2,8.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="497.9,28.2 521.4,8.2 474.3,8.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="574.9,28.2 598.5,8.2 551.4,8.2 	"
+          ></polygon>
+          <polygon class="st0" points="652,28.2 675.5,8.2 628.5,8.2 	"></polygon>
+          <polygon
+            class="st0"
+            points="1269.1,28.2 1292.6,8.2 1245.5,8.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1346.2,28.2 1369.7,8.2 1322.6,8.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1423.2,28.2 1446.8,8.2 1399.7,8.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1500.3,28.2 1523.9,8.2 1476.8,8.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1577.4,28.2 1600.9,8.2 1553.9,8.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1654.5,28.2 1678,8.2 1630.9,8.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1731.6,28.2 1755.1,8.2 1708,8.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1808.6,28.2 1832.2,8.2 1785.1,8.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1885.7,28.2 1909.2,8.2 1862.2,8.2 	"
+          ></polygon>
+        </g>
+      </svg>
+
+      <!-- !SVG down ends -->
+
+      <!-- !Svg top starts -->
+      <svg
+        version="1.1"
+        viewBox="0 0 1920 29.2"
+        x="0px"
+        xml:space="preserve"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        y="0px"
+        class="svg-top"
+      >
+        <g>
+          <polygon
+            class="st0"
+            points="1190.5,1.2 1166.9,21.2 1214,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1113.4,1.2 1089.8,21.2 1136.9,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1036.3,1.2 1012.8,21.2 1059.8,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="959.2,1.2 935.7,21.2 982.8,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="882.1,1.2 858.6,21.2 905.7,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="805.1,1.2 781.5,21.2 828.6,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="728,1.2 704.5,21.2 751.5,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1730.5,1.2 1706.9,21.2 1754,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1653.4,1.2 1629.8,21.2 1676.9,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1576.3,1.2 1552.8,21.2 1599.8,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1884.4,1.2 1860.8,21.2 1907.9,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1807.3,1.2 1783.8,21.2 1830.8,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1499.2,1.2 1475.7,21.2 1522.8,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1422.1,1.2 1398.6,21.2 1445.7,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1345.1,1.2 1321.5,21.2 1368.6,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1268,1.2 1244.5,21.2 1291.5,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="650.9,1.2 627.4,21.2 674.5,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="573.8,1.2 550.3,21.2 597.4,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="496.8,1.2 473.2,21.2 520.3,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="419.7,1.2 396.1,21.2 443.2,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="342.6,1.2 319.1,21.2 366.1,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="265.5,1.2 242,21.2 289.1,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="188.4,1.2 164.9,21.2 212,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="111.4,1.2 87.8,21.2 134.9,21.2 	"
+          ></polygon>
+          <polygon class="st0" points="34.3,1.2 10.8,21.2 57.8,21.2 	"></polygon>
+        </g>
+      </svg>
+      <!-- !Svg top ends -->
+      <div class="about-us">
+        <div class="row no-gutters">
+          <div class="col-lg-6 col-md-6">
+            <div
+              data-aos="fade-right"
+              data-aos-duration="1500"
+              data-aos-offset="350"
+              class="about-us-img"
+            ></div>
+          </div>
+          <div class="col-lg-6 col-md-6 bg-img">
+            <div
+              class="about-us-box d-flex flex-column justify-content-around align-items-center mt-5 mb-5"
+            >
+              <h1
+                class="about-us-title"
+                data-aos="fade-in"
+                data-aos-duration="1500"
+              >
+                ABOUT US
+              </h1>
+              <div class="title-dec mt-4">
+                <img
+                  class="title-dec-img"
+                  src="./imgs/title_decoration.png"
+                  alt=""
+                />
+              </div>
+              <div class="text-holder text-center mt-4">
+                <h1
+                  class="about-us-title"
+                  data-aos="fade-right"
+                  data-aos-duration="700"
+                  data-aos-delay="50"
+                >
+                  anais lounge
+                </h1>
+                <p
+                  class="about-us-title"
+                  data-aos="fade-right"
+                  data-aos-delay="300"
+                  data-aos-duration="700"
+                >
+                  Anais Lounge is a dance club and a nightclub located in 52
+                  Gard.about-us-imgen Street Passaic, New Jersey.
+                </p>
+              </div>
+              <div class="about-us-btn-box">
+                <a class="about-us-btn" href="#"
+                  >OUR MENU <span><i class="fas fa-arrow-right"></i></span
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About us section ends -->
+    <!-- Event section starts  -->
+    <section id="events">
+      <div class="container">
+        <div class="events-title-box custom-pt mb-5">
+          <h1 class="events-title text-white text-center">EVENTS</h1>
+        </div>
+        <div class="row custom-pb">
+          <div class="col-lg-6">
+            <div class="img-border">
+              <img
+                class="img-responsive w-100"
+                src="./imgs/events_img.jpg"
+                alt=""
+              />
+            </div>
+            <h1 class="event-name text-center text-white mt-4">halloween</h1>
+            <p class="event-date text-center text-white">
+              Saturday Cotober 31st
+            </p>
+            <p class="event-desc text-center text-white">
+              Bring your best costume and join us on Halloween!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Event section ends -->
+
+    <!--  Gallery Section -->
+    <section id="mygallery">
+      <!-- !SVG down starts -->
+      <svg
+        version="1.1"
+        viewBox="0 0 1920 29.7"
+        x="0px"
+        xml:space="preserve"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        y="0px"
+        class="svg-down"
+      >
+        <g>
+          <polygon class="st0" points="729.5,28.2 753.1,8.2 706,8.2 	"></polygon>
+          <polygon
+            class="st0"
+            points="806.6,28.2 830.2,8.2 783.1,8.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="883.7,28.2 907.2,8.2 860.2,8.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="960.8,28.2 984.3,8.2 937.2,8.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1037.9,28.2 1061.4,8.2 1014.3,8.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1114.9,28.2 1138.5,8.2 1091.4,8.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1192,28.2 1215.5,8.2 1168.5,8.2 	"
+          ></polygon>
+          <polygon class="st0" points="189.5,28.2 213.1,8.2 166,8.2 	"></polygon>
+          <polygon
+            class="st0"
+            points="266.6,28.2 290.2,8.2 243.1,8.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="343.7,28.2 367.2,8.2 320.2,8.2 	"
+          ></polygon>
+          <polygon class="st0" points="35.6,28.2 59.2,8.2 12.1,8.2 	"></polygon>
+          <polygon
+            class="st0"
+            points="112.7,28.2 136.2,8.2 89.2,8.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="420.8,28.2 444.3,8.2 397.2,8.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="497.9,28.2 521.4,8.2 474.3,8.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="574.9,28.2 598.5,8.2 551.4,8.2 	"
+          ></polygon>
+          <polygon class="st0" points="652,28.2 675.5,8.2 628.5,8.2 	"></polygon>
+          <polygon
+            class="st0"
+            points="1269.1,28.2 1292.6,8.2 1245.5,8.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1346.2,28.2 1369.7,8.2 1322.6,8.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1423.2,28.2 1446.8,8.2 1399.7,8.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1500.3,28.2 1523.9,8.2 1476.8,8.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1577.4,28.2 1600.9,8.2 1553.9,8.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1654.5,28.2 1678,8.2 1630.9,8.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1731.6,28.2 1755.1,8.2 1708,8.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1808.6,28.2 1832.2,8.2 1785.1,8.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1885.7,28.2 1909.2,8.2 1862.2,8.2 	"
+          ></polygon>
+        </g>
+      </svg>
+      <!-- !SVG down ends -->
+      <!-- !Svg top starts -->
+      <svg
+        version="1.1"
+        viewBox="0 0 1920 29.2"
+        x="0px"
+        xml:space="preserve"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        y="0px"
+        class="svg-top"
+      >
+        <g>
+          <polygon
+            class="st0"
+            points="1190.5,1.2 1166.9,21.2 1214,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1113.4,1.2 1089.8,21.2 1136.9,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1036.3,1.2 1012.8,21.2 1059.8,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="959.2,1.2 935.7,21.2 982.8,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="882.1,1.2 858.6,21.2 905.7,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="805.1,1.2 781.5,21.2 828.6,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="728,1.2 704.5,21.2 751.5,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1730.5,1.2 1706.9,21.2 1754,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1653.4,1.2 1629.8,21.2 1676.9,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1576.3,1.2 1552.8,21.2 1599.8,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1884.4,1.2 1860.8,21.2 1907.9,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1807.3,1.2 1783.8,21.2 1830.8,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1499.2,1.2 1475.7,21.2 1522.8,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1422.1,1.2 1398.6,21.2 1445.7,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1345.1,1.2 1321.5,21.2 1368.6,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1268,1.2 1244.5,21.2 1291.5,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="650.9,1.2 627.4,21.2 674.5,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="573.8,1.2 550.3,21.2 597.4,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="496.8,1.2 473.2,21.2 520.3,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="419.7,1.2 396.1,21.2 443.2,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="342.6,1.2 319.1,21.2 366.1,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="265.5,1.2 242,21.2 289.1,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="188.4,1.2 164.9,21.2 212,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="111.4,1.2 87.8,21.2 134.9,21.2 	"
+          ></polygon>
+          <polygon class="st0" points="34.3,1.2 10.8,21.2 57.8,21.2 	"></polygon>
+        </g>
+      </svg>
+      <!-- !Svg top ends -->
+      <div class="gallery-wrapper">
+        <div class="grid">
+          <div class="grid-sizer"></div>
+
+          <div class="grid-item grid-item--width2">
+            <a class="fancybox" href="imgs/gallery/img-1.jpg" rel="gallery1">
+              <img src="./imgs/gallery/img-1.jpg" />
+            </a>
+          </div>
+          <div class="grid-item">
+            <a class="fancybox" href="imgs/gallery/img-2.jpeg" rel="gallery1">
+              <img src="./imgs/gallery/img-2.jpeg" />
+            </a>
+          </div>
+          <div class="grid-item">
+            <a class="fancybox" href="imgs/gallery/img-3.jpeg" rel="gallery1">
+              <img src="./imgs/gallery/img-3.jpeg" />
+            </a>
+          </div>
+          <div class="grid-item">
+            <a class="fancybox" href="imgs/gallery/img-4.jpeg" rel="gallery1">
+              <img src="./imgs/gallery/img-4.jpeg" />
+            </a>
+          </div>
+          <div class="grid-item">
+            <a class="fancybox" href="imgs/gallery/img-5.jpeg" rel="gallery1">
+              <img src="./imgs/gallery/img-5.jpeg" />
+            </a>
+          </div>
+          <div class="grid-item">
+            <a class="fancybox" href="imgs/gallery/img-6.jpeg" rel="gallery1">
+              <img src="./imgs/gallery/img-6.jpeg" />
+            </a>
+          </div>
+          <div class="grid-item">
+            <a class="fancybox" href="imgs/gallery/img-7.jpeg" rel="gallery1">
+              <img src="./imgs/gallery/img-7.jpeg" />
+            </a>
+          </div>
+          <div class="grid-item grid-item--width2">
+            <a class="fancybox" href="imgs/gallery/img-8.jpeg" rel="gallery1">
+              <img src="./imgs/gallery/img-8.jpeg" />
+            </a>
+          </div>
+          <div class="grid-item">
+            <a class="fancybox" href="imgs/gallery/img-9.jpeg" rel="gallery1">
+              <img src="./imgs/gallery/img-9.jpeg" />
+            </a>
+          </div>
+          <div class="grid-item">
+            <a class="fancybox" href="imgs/gallery/img-10.jpeg" rel="gallery1">
+              <img src="./imgs/gallery/img-10.jpeg" />
+            </a>
+          </div>
+          <div class="grid-item">
+            <a class="fancybox" href="imgs/gallery/img-11.jpeg" rel="gallery1">
+              <img src="./imgs/gallery/img-11.jpeg" />
+            </a>
+          </div>
+          <div class="grid-item">
+            <a class="fancybox" href="imgs/gallery/img-12.jpeg" rel="gallery1">
+              <img src="./imgs/gallery/img-12.jpeg" />
+            </a>
+          </div>
+          <div class="grid-item">
+            <a class="fancybox" href="imgs/gallery/img-13.jpeg" rel="gallery1">
+              <img src="./imgs/gallery/img-13.jpeg" />
+            </a>
+          </div>
+          <div class="grid-item">
+            <a class="fancybox" href="imgs/gallery/img-14.jpeg" rel="gallery1">
+              <img src="./imgs/gallery/img-14.jpeg" />
+            </a>
+          </div>
+          <div class="grid-item grid-item--width2">
+            <a class="fancybox" href="imgs/gallery/img-15.jpeg" rel="gallery1">
+              <img src="./imgs/gallery/img-15.jpeg" />
+            </a>
+          </div>
+          <div class="grid-item">
+            <a class="fancybox" href="imgs/gallery/img-16.jpeg" rel="gallery1">
+              <img src="./imgs/gallery/img-16.jpeg" />
+            </a>
+          </div>
+          <div class="grid-item">
+            <a class="fancybox" href="imgs/gallery/img-17.jpeg" rel="gallery1">
+              <img src="./imgs/gallery/img-17.jpeg" />
+            </a>
+          </div>
+          <div class="grid-item">
+            <a class="fancybox" href="imgs/gallery/img-18.jpeg" rel="gallery1">
+              <img src="./imgs/gallery/img-18.jpeg" />
+            </a>
+          </div>
+          <div class="grid-item">
+            <a class="fancybox" href="imgs/gallery/img-19.jpeg" rel="gallery1">
+              <img src="./imgs/gallery/img-19.jpeg" />
+            </a>
+          </div>
+          <div class="grid-item">
+            <a class="fancybox" href="imgs/gallery/img-20.jpeg" rel="gallery1">
+              <img src="./imgs/gallery/img-20.jpeg" />
+            </a>
+          </div>
+          <div class="grid-item">
+            <a class="fancybox" href="imgs/gallery/img-21.jpeg" rel="gallery1">
+              <img src="./imgs/gallery/img-21.jpeg" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  Gallery Section ends -->
+
+    <!-- Specials section starts -->
+    <section id="specials">
+      <div class="container">
+        <h1 class="specials-heading text-white text-center custom-pt mb-5">
+          SPECIALS
+        </h1>
+        <div class="sepcial-btn-box text-center custom-pb">
+          <a class="special-btn" href="#"
+            >CHECK THEM OUT
+            <span class="arrow-right"><i class="fas fa-arrow-right"></i></span
+          ></a>
+        </div>
+      </div>
+    </section>
+    <!-- Sepcials section ends -->
+
+    <!-- Newsletter section starts -->
+    <section id="newsletter">
+      <!-- !SVG down starts -->
+      <svg
+        version="1.1"
+        viewBox="0 0 1920 29.7"
+        x="0px"
+        xml:space="preserve"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        y="0px"
+        class="svg-down"
+      >
+        <g>
+          <polygon class="st0" points="729.5,28.2 753.1,8.2 706,8.2 	"></polygon>
+          <polygon
+            class="st0"
+            points="806.6,28.2 830.2,8.2 783.1,8.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="883.7,28.2 907.2,8.2 860.2,8.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="960.8,28.2 984.3,8.2 937.2,8.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1037.9,28.2 1061.4,8.2 1014.3,8.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1114.9,28.2 1138.5,8.2 1091.4,8.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1192,28.2 1215.5,8.2 1168.5,8.2 	"
+          ></polygon>
+          <polygon class="st0" points="189.5,28.2 213.1,8.2 166,8.2 	"></polygon>
+          <polygon
+            class="st0"
+            points="266.6,28.2 290.2,8.2 243.1,8.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="343.7,28.2 367.2,8.2 320.2,8.2 	"
+          ></polygon>
+          <polygon class="st0" points="35.6,28.2 59.2,8.2 12.1,8.2 	"></polygon>
+          <polygon
+            class="st0"
+            points="112.7,28.2 136.2,8.2 89.2,8.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="420.8,28.2 444.3,8.2 397.2,8.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="497.9,28.2 521.4,8.2 474.3,8.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="574.9,28.2 598.5,8.2 551.4,8.2 	"
+          ></polygon>
+          <polygon class="st0" points="652,28.2 675.5,8.2 628.5,8.2 	"></polygon>
+          <polygon
+            class="st0"
+            points="1269.1,28.2 1292.6,8.2 1245.5,8.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1346.2,28.2 1369.7,8.2 1322.6,8.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1423.2,28.2 1446.8,8.2 1399.7,8.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1500.3,28.2 1523.9,8.2 1476.8,8.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1577.4,28.2 1600.9,8.2 1553.9,8.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1654.5,28.2 1678,8.2 1630.9,8.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1731.6,28.2 1755.1,8.2 1708,8.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1808.6,28.2 1832.2,8.2 1785.1,8.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1885.7,28.2 1909.2,8.2 1862.2,8.2 	"
+          ></polygon>
+        </g>
+      </svg>
+      <!-- !SVG down ends -->
+      <!-- !Svg top starts -->
+      <svg
+        version="1.1"
+        viewBox="0 0 1920 29.2"
+        x="0px"
+        xml:space="preserve"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        y="0px"
+        class="svg-top"
+      >
+        <g>
+          <polygon
+            class="st0"
+            points="1190.5,1.2 1166.9,21.2 1214,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1113.4,1.2 1089.8,21.2 1136.9,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1036.3,1.2 1012.8,21.2 1059.8,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="959.2,1.2 935.7,21.2 982.8,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="882.1,1.2 858.6,21.2 905.7,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="805.1,1.2 781.5,21.2 828.6,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="728,1.2 704.5,21.2 751.5,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1730.5,1.2 1706.9,21.2 1754,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1653.4,1.2 1629.8,21.2 1676.9,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1576.3,1.2 1552.8,21.2 1599.8,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1884.4,1.2 1860.8,21.2 1907.9,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1807.3,1.2 1783.8,21.2 1830.8,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1499.2,1.2 1475.7,21.2 1522.8,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1422.1,1.2 1398.6,21.2 1445.7,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1345.1,1.2 1321.5,21.2 1368.6,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="1268,1.2 1244.5,21.2 1291.5,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="650.9,1.2 627.4,21.2 674.5,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="573.8,1.2 550.3,21.2 597.4,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="496.8,1.2 473.2,21.2 520.3,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="419.7,1.2 396.1,21.2 443.2,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="342.6,1.2 319.1,21.2 366.1,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="265.5,1.2 242,21.2 289.1,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="188.4,1.2 164.9,21.2 212,21.2 	"
+          ></polygon>
+          <polygon
+            class="st0"
+            points="111.4,1.2 87.8,21.2 134.9,21.2 	"
+          ></polygon>
+          <polygon class="st0" points="34.3,1.2 10.8,21.2 57.8,21.2 	"></polygon>
+        </g>
+      </svg>
+      <!-- !Svg top ends -->
+      <div class="row no-gutters">
+        <div class="col-lg-6">
+          <div class="news-img-bg">
+            <div class="news-content-holder">
+              <div class="container">
+                <h1 class="newsletter-heading">NEWSLETTER</h1>
+                <h2 class="newsletter-sub-heading mt-4">
+                  STAY TUNED FOR UPDATES
+                </h2>
+                <p class="newsletter-desc mt-4">
+                  Sign up for our newsletter & get exclusive offers and invites!
+                </p>
+                <div class="input-and-btn mt-4">
+                  <input
+                    type="text"
+                    class="newsletter-email"
+                    placeholder="Your Email..."
+                  />
+                  <a class="submit-btn" href="#"
+                    >SUBMIT <span><i class="fas fa-arrow-right"></i></span
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <iframe
+            id="mymap"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48279.4156213963!2d-74.16254796274686!3d40.86170191854001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2fed3add74cc1%3A0x39a1b58553f4409c!2s52%20Garden%20St%2C%20Passaic%2C%20NJ%2007055%2C%20USA!5e0!3m2!1sen!2s!4v1600858762103!5m2!1sen!2s"
+            width="100%"
+            height="500"
+            frameborder="0"
+            style="border: 0"
+            allowfullscreen=""
+            aria-hidden="false"
+            tabindex="0"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+    <!-- Newsletter section ends -->
+
+    <!-- !Footer sec starts -->
+    <footer id="footer">
+      <div class="container">
+        <div class="footer-row-wrap custom-pt custom-pb">
+          <div class="row text-white">
+            <div class="col-lg-4 col-md-4">
+              <div class="location-box">
+                <h2 class="location">location</h2>
+                <h6>52 Garden Street</h6>
+                <h6>Passaic, NJ</h6>
+                <h6>07055</h6>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4">
+              <div class="hours-box">
+                <h2 class="hours">hours</h2>
+                <h6>Fri, Sat</h6>
+                <h6>9:00 PM - 3:00 AM</h6>
+                <h6>Sun</h6>
+                <h6>4:00 PM - 3:00 AM</h6>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4">
+              <div class="find-us-box">
+                <h2 class="find-us">find us on</h2>
+                <h6>
+                  <span><i class="fab fa-facebook fa-2x"></i></span>
+                  <span><i class="fab fa-instagram fa-2x"></i></span>
+                </h6>
+                <h2>contact us</h2>
+                <h6>(973)-928-2130</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-middle">
+        <div class="container">
+          <div class="footer-middle-content text-white text-center">
+            <p>Powered by: company <span class="brand-name">NAME</span></p>
+            <p>
+              <a href="#">Website design,</a>
+              <a href="#">Social Media marketing</a>
+              <a href="#">provided by company name</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="learn-more text-center">
+        <p class="text-white">
+          We strive to make our website accessible to everybody
+          <span
+            ><a class="font-weight-bold text-white" href="#"
+              >Learn More</a
+            ></span
+          >
+        </p>
+      </div>
+    </footer>
+    <!-- !Footer sec ends -->
+
+    <script src="./js/jquery-3.5.0.js"></script>
+
+    <!-- Fancy box script-->
+    <script src="./fancybox-2.1.7/source/jquery.fancybox.pack.js"></script>
+    <!-- Fancy Box Helpers -->
+    <script src="./fancybox-2.1.7/source/helpers/jquery.fancybox-buttons.js"></script>
+    <script src="./fancybox-2.1.7/source/helpers/jquery.fancybox-media.js"></script>
+    <script src="./fancybox-2.1.7/source/helpers/jquery.fancybox-thumbs.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <script src="./js/bootstrap.js"></script>
+    <!-- ANIMATE ON SCROLL -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./js/script.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <script>
+      let gridGallery = $(".grid").masonry({
+        columnWidth: ".grid-sizer",
+        // do not use .grid-sizer in layout
+        itemSelector: ".grid-item",
+        percentPosition: true,
+        fitWidth: true,
+      });
+
+      gridGallery.imagesLoaded(function () {
+        gridGallery.masonry("layout");
+      });
+
+      // layout Masonry after each image loads
+      gridGallery.imagesLoaded().progress(function () {
+        gridGallery.masonry("layout");
+      });
+    </script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".fancybox").fancybox({
+          openEffect: "none",
+          closeEffect: "none",
+        });
+      });
+    </script>
+  </body>
+</html>
